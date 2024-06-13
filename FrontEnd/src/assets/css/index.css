@@ -1,0 +1,78 @@
+.home {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/Home_image.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--primary-color);
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1;
+}
+
+.home-container {
+    row-gap: 2.5rem;
+}
+
+.home-data {
+    text-align: center;
+    z-index: 2;
+}
+
+.home-title{
+    font-size: var(--h2-font-size);
+}
+
+.home-title h2{
+    font-size: 3rem;
+}
+
+.home-button button{
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin-top: 2.5rem;
+}
+
+
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 25px; /* Ajuste conforme necessário */
+    height: 25px; /* Ajuste conforme necessário */
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s, visibility 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.scroll-to-top-btn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-to-top-btn img {
+    width: 15px;
+}
