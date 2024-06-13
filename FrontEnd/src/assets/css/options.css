@@ -2,7 +2,9 @@
     width: 100%;
     min-height: 100vh;
     background-color: rgb(25, 25, 25);
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .options-container {
@@ -15,7 +17,7 @@
 }
 
 .options-card {
-    max-width: 200px; /* Largura mínima do card */
+    min-width: 200px; /* Largura mínima do card */
     min-height: 200px;
     flex-grow: 1; /* Para ocupar todo o espaço disponível */
     display: flex;
@@ -38,5 +40,22 @@
     transform: scale(1.05);
     /* box-shadow: 0 6px 10px rgba(199, 83, 0, 0.413); */
 }
+
+@media screen and (max-width: 576px) {
+    .options-container {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column; /* Mudar para empilhar elementos verticalmente */
+        align-items: center; /* Centralizar elementos horizontalmente */
+    }
+
+    .options-container > * {
+        margin-bottom: 50px; /* Espaçamento entre os elementos */
+    }
+}
+
+
+
+
 
 
