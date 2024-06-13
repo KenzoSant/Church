@@ -25,6 +25,7 @@
                     </div>
                     <div class="home-button">
                         <a href="#options"><button class="btn">Sobre</button></a>
+                        <a href="#carousel"><button class="btn">Informativo</button></a>
                     </div>
                 </div>
             </div>
