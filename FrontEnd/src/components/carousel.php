@@ -17,10 +17,13 @@
         <div class="container">
             <div class="title">
                 <h1><span>•</span>Informativo</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti,
-                    id similique dignissimos inventore assumenda numquam consequatur,
-                    illum officiis fugit tempore sapiente, omnis magni exercitationem voluptatibus
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, 
+                    id similique dignissimos inventore assumenda numquam consequatur, 
+                    illum officiis fugit tempore sapiente, omnis magni exercitationem voluptatibus 
                     ipsum deserunt reiciendis quisquam dolorem?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea quisquam veritatis 
+                    dolorum sapiente voluptatem? Quam voluptatibus odio maiores. Reprehenderit provident 
+                    omnis debitis ad eligendi minima amet pariatur id sunt sint?
                 </p>
             </div>
             <div class="center">
