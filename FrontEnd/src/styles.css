@@ -118,7 +118,7 @@ select {
 /* ========== CLASSES REUTILIZAVEIS ========== */
 
 .container {
-    max-width: 1000px;
+    max-width: 75%;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -388,7 +388,9 @@ select {
     }
 
     .section {
-        padding: 3rem 0 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .section__title {
