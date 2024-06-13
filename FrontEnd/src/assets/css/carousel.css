@@ -3,6 +3,9 @@
     width: 100%;
     min-height: 100vh;
     background-color: rgb(25, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .center {
     align-items: center;
@@ -100,3 +103,4 @@
     height: 0.5em;
     width: 0.5em;
 }
+
